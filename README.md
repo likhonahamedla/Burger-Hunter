@@ -3,6 +3,9 @@
 A new Flutter project.
 
 ## Getting Started
+git image
+![image alt](https://github.com/likhonahamedla/Burger-Hunter/blob/c903299f4b775c1980bab581e0bd5e5627d974ad/screenshots/burger%20page%201.png)
+![image alt](https://github.com/likhonahamedla/Burger-Hunter/blob/c903299f4b775c1980bab581e0bd5e5627d974ad/screenshots/burger%20page2.png)
 
 This project is a starting point for a Flutter application.
 

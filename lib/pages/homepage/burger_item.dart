@@ -3,7 +3,8 @@ import 'package:burger_hunter/elements/textAssets.dart';
 import 'package:flutter/material.dart';
 
 import '../../data&provider/data.dart';
-import '../details.dart';
+
+import '../detailsPages/details.dart';
 
 class BurgerItem extends StatelessWidget {
   const BurgerItem({super.key});
@@ -16,7 +17,7 @@ class BurgerItem extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         itemCount: item.length,
         itemBuilder: (context, index) {
-          return InkWell(
+          return GestureDetector(
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),

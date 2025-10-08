@@ -25,7 +25,9 @@ class Button extends StatelessWidget {
         padding: padding,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       ),
-      child: Row(spacing: 20, children: [buttonText, buttonIcon]),
+      child: Center(
+        child: Row(spacing: 20, children: [buttonText, buttonIcon]),
+      ),
     );
   }
 }

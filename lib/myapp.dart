@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Burger Hunter',
-      home: Bottomnavi(),
+      home: WelcomePage(),
     );
   }
 }

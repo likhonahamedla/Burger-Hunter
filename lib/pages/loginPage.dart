@@ -4,6 +4,7 @@ import 'package:burger_hunter/pages/homepage/homepage.dart';
 import 'package:flutter/material.dart';
 
 import '../elements/button.dart';
+import 'bottomNavi.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -121,7 +122,7 @@ class _LoginPageState extends State<LoginPage> {
                     passwordController.text.isNotEmpty) {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Homepage()),
+                    MaterialPageRoute(builder: (context) => Bottomnavi()),
                   );
                 } else {
                   ScaffoldMessenger.of(context).showSnackBar(

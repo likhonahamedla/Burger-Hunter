@@ -4,8 +4,6 @@ import 'package:burger_hunter/pages/homepage/burger_item.dart';
 import 'package:burger_hunter/pages/homepage/categories.dart';
 import 'package:flutter/material.dart';
 
-import '../bottomNavi.dart';
-
 class Homepage extends StatefulWidget {
   const Homepage({super.key});
 
